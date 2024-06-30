@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function resetSeats() {
         seats.forEach(seat => {
             seat.dataset.occupied = "false";
-            seat.classList.remove("occupied", "needs-special", "inactive");
+            seat.classList.remove("occupied", "needs-special",);
         });
         updateSummary();
         saveSeats();
